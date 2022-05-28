@@ -1,8 +1,5 @@
 
-            command: sudo 
-        - run:
-            name: abuah
-            command: unzip app.zip; chmod u+x *
+            mod u+x *
         - run:
             name: aliah
             no_output_timeout: 3600s
